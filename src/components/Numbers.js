@@ -26,9 +26,7 @@ function Numbers({numbers, addNumber,winingNumbers}) {
       
         // Take the first n entries
         const topNEntries = entries.slice(0, n);
-      
-        // Create a new map from the top entries
-        const topNMap = new Map(topNEntries);
+
       
         return topNEntries;
       }

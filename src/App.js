@@ -1,6 +1,5 @@
-import { useState } from "react";
 import Numbers from "./components/Numbers";
-import Statistics from "./components/Statistics";
+
 function App() {
 
   let numbers = []
