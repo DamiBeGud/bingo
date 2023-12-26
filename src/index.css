@@ -7,7 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap: .5em
+}
+.render6{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: .5em
+}
+
+.render10{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: .5em
 }
